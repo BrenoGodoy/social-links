@@ -1,0 +1,58 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  margin-top: 10px;
+}
+
+.profile-pic {
+  height: 200px;
+  width: 200px;
+  padding: 5px;
+  border: 2px solid palevioletred;
+  border-radius: 300px;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  height: 270px;
+}
+
+.body div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 50px;
+  border: 1px solid palevioletred;
+
+}
+
+.body div:hover {
+  background-color: palevioletred;
+}
+
+.foot {
+  display: flex;
+  width: 300px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.foot img {
+  height: 50px;
+  width: 50px;
+}
