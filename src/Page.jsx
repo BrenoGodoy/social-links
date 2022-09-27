@@ -4,7 +4,7 @@ import instagram from './images/instagram.png'
 import facebook from './images/facebook.png'
 import linkedin from './images/linkedin.png'
 
-import './page.css';
+import './Page.css';
 
 function Page() {
   return (
